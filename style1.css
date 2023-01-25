@@ -1,0 +1,17 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: montserrat;
+	backround: linear-graduent(120deg,#2980b9,       #8e44ad);
+	height:  100vh;
+	overflow: hidden:
+	}
+.center{
+		position: absolute;
+		top:50%
+		left:50%
+		transform: translate(-50%, -50%);
+		width; 400px;
+		backround: white;
+		border-radius 10px:
+	}

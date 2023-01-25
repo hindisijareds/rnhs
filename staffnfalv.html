@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+  
+
+
+  
+  <title>ICT</title>
+
+
+ <link rel="stylesheet" href="style2.css">
+ <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/versions.css">
+</head>
+
+<body  translate="no" >
+<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title"></h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form action="RNHS.html" role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Email" type="text" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Password" type="password" required>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Log In
+									</button>
+									<div class="remember"> <input type="checkbox" checked="checked"> Remember me</div>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form action="RNHS.html" role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password" required>
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Sign Up
+									</button>
+									<button data-dismiss="modal" type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+	
+
+
+<!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->
+
+    	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="RNHS.html">
+					<div id="home" class="first-gae">
+					<h2><img src="images/logo1.PNG" width="100px" height="100px" alt="" /><strong>RNHS</strong></h2></div>
+
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="RNHS.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+						<li class="nav-item active dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Strands </a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="ABM.html">ABM </a>
+								<a class="dropdown-item" href="humss.html">HUMSS </a>
+								<a class="dropdown-item" href="gas.html">GAS </a>
+								<a class="dropdown-item" href="stem.html">STEM </a>
+								<a class="dropdown-item" href="tvl.html">TVL </a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link" href="events.html" id="dropdown-a" data-toggle="">Events </a>
+							<!--<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="#">New Events </a>
+								<a class="dropdown-item" href="#">Live Events </a>
+								<a class="dropdown-item" href="#">Old Events </a>
+							</div>-->
+						</li>
+						<li class="nav-item"><a class="nav-link" href="staffnfal.html">Staffs & Facilities</a></li>
+						<li class="nav-item"><a class="nav-link" href="guides.html">Guides</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log orange" href="RNHSv.html"><span>Logout</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+		<div class="all-title-box">
+		<div class="container text-center">
+			<h1>STAFFS & FACILITIES<span class="m_1">Rosales National High School</span></h1>
+		</div>
+	</div>
+	<div id="contact">
+	<section class="section lb page-section">
+		<div class="container">
+			 <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>Facilities</h3>
+							<p class="lead">
+							</p>
+                     <div class="">
+  <input checked type="radio" name="slider" id="slide1" />
+  <input type="radio" name="slider" id="slide2" />
+  <input type="radio" name="slider" id="slide3" />
+	 <input type="radio" name="slider" id="slide4" />
+
+  <div class="slider-wrapper">
+    <div class="inner">
+      <article>
+        <img src="images/fa1.JPG" />
+      </article>
+
+      <article>
+        <img src="images/fa2.JPG" />
+      </article>
+
+      <article>
+        <img src="images/fa3.JPG" />
+      </article>
+
+		 <article>
+        <img src="images/fa4.JPG" />
+      </article>
+    </div>
+    <!-- .inner -->
+  </div>
+  <!-- .slider-wrapper -->
+
+  <div class="slider-prev-next-control">
+    <label for="slide1"></label>
+    <label for="slide2"></label>
+    <label for="slide3"></label>
+	 <label for="slide4"></label>
+  </div>
+  <!-- .slider-prev-next-control -->
+
+  <div class="slider-dot-control">
+    <label for="slide1"></label>
+    <label for="slide2"></label>
+    <label for="slide3"></label>
+	 <label for="slide4"></label>
+  </div>
+  <!-- .slider-dot-control -->
+</div>
+                </div>
+</div>
+            </div><!-- end title -->
+		
+	</section>
+	
+		
+	
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>About US</h3>
+                        </div>
+                        <p> Rosales National High School (RNHS) is a public secondary educational institution located in Rosales, Pangasinan. The school was established to provide quality and affordable education to its residents.</p>   
+						<div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="https://www.facebook.com/RNHSPage"><i class="fa fa-facebook"></i></a></li>
+							</ul><!-- end links -->
+						</div>						
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Guides</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Contact Us</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">example@rnhs.school</a></li>
+                            <li>VJRG+HVW, Rosales, Pangasinan Rosales National High School, Address</li>
+                            <li>(School Contact Number Here)</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2022 <a href="#">RNHS</a> Design By : <a href="https://html.design/">Jared R. Estabillo</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+	<script src="js/timeline.min.js"></script>
+	<script>
+		timeline(document.querySelectorAll('.timeline'), {
+			forceVerticalMode: 700,
+			mode: 'horizontal',
+			verticalStartPosition: 'left',
+			visibleItems: 4
+		});
+	</script>
+
+</body>
+</html>

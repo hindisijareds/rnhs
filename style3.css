@@ -1,0 +1,271 @@
+.container22{
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.container22 .content22{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container22 .content22 .left-side22{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content22 .left-side22::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.content22 .left-side22 .details22{
+  margin: 14px;
+  text-align: center;
+}
+.content22 .left-side22 .details22 i{
+  font-size: 30px;
+  color: #3e2093;
+  margin-bottom: 10px;
+}
+.content22 .left-side22 .details22 .topic22{
+  font-size: 18px;
+  font-weight: 500;
+}
+.content22 .left-side22 .details22 .text-one,
+.content22 .left-side22 .details22 .text-two{
+  font-size: 14px;
+  color: #afafb6;
+}
+
+
+.container22 .content22 .right-side22{
+  width: 75%;
+  margin-left: 75px;
+}
+.content22 .right-side22 .topic-text22{
+  font-size: 23px;
+  font-weight: 600;
+  color: #3e2093;
+}
+.right-side22 .input-box1{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side22 .input-box1 input,
+.right-side22 .input-box1 textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side22 .message-box1{
+  min-height: 110px;
+}
+.right-side22 .input-box1 textarea{
+  padding-top: 6px;
+}
+.right-side22 .button43{
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side22 .button34 input[type="button"]{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #3e2093;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button34 input[type="button"]:hover{
+  background: #5029bc;
+}
+
+@media (max-width: 950px) {
+  .container22{
+    width: 90%;
+    padding: 30px 40px 40px 35px ;
+  }
+  .container22 .content22 .right-side22{
+   width: 75%;
+   margin-left: 55px;
+}
+}
+@media (max-width: 820px) {
+  .container22{
+    margin: 40px 0;
+    height: 100%;
+  }
+  .container22 .content22{
+    flex-direction: column-reverse;
+  }
+ .container22 .content22 .left-side22{
+   width: 100%;
+   flex-direction: row;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .container22 .content22 .left-side22::before{
+   display: none;
+ }
+ .container22 .content22 .right-side22{
+   width: 100%;
+   margin-left: 0;
+ }
+}
+hr {
+    clear: both;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /// */
