@@ -93,12 +93,12 @@
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
-  background: #3e2093;
+  background: #333333;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .button34 input[type="button"]:hover{
-  background: #5029bc;
+  background: #ebc90c;
 }
 
 @media (max-width: 950px) {
